@@ -6,7 +6,7 @@
 using std::cout, std::flush, std::this_thread::sleep_for, std::chrono::seconds;
 
 int vitalsOk(float temperature, float pulseRate, float spo2) {
-return vital_temp(temperature) && vital_pulse(pulseRate) && vital_Spo2(spo2);
+return vital_temp(temperature)&&vital_pulse(pulseRate)&&vital_Spo2(spo2);
 }
  
 int vital_temp(float temperature) {
