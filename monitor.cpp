@@ -9,7 +9,7 @@ int vital_temp(float temperature) {
       return 0;
     }
     return 1;
-  } 
+  }
   int vital_pulse(float pulseRate) {
   if (pulseRate < 60 || pulseRate > 100) {
     cout << "Pulse Rate is out of range!\n";
@@ -17,7 +17,7 @@ int vital_temp(float temperature) {
     return 0;
     }
     return 1;
-  } 
+  }
   int vital_Spo2(float spo2) {
     if (spo2 < 90) {
     cout << "Oxygen Saturation out of range!\n";
